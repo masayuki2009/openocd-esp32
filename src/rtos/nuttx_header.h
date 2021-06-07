@@ -57,14 +57,14 @@ end
 
 /* default offset */
 #define PID  0xc
-#define XCPREG  0x70
-#define STATE 0x19
-#define NAME 0xb8
-#define NAME_SIZE 32
+#define XCPREG  0x84
+#define STATE 0x1a
+#define NAME 0xf4
+#define NAME_SIZE 0x20
 
 /* defconfig of nuttx */
 /* #define CONFIG_DISABLE_SIGNALS */
-#define CONFIG_DISABLE_MQUEUE
+/* #define CONFIG_DISABLE_MQUEUE */
 /* #define CONFIG_PAGING */
 
 
